@@ -1,0 +1,68 @@
+html ,body{
+    height: 100%;
+    font-family: 'Lato' ,sans-serif;
+    line-height: 1.5em;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.img1{
+    background-image: url('img1.jpg');
+    min-height: 100%;
+    
+}
+.img2{
+    background-image: url('img2.jpg');
+    min-height: 750px
+    
+}
+.img3{
+    background-image: url('img3.jpg');
+    min-height: 700px;
+    
+}
+.img1 , .img2 , .img3{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    text-transform: uppercase;
+       
+    width: 100%;  
+    text-align: center;
+    line-height: 10px;
+    letter-spacing: 12px;
+    font-size: 25px;
+    
+    
+    
+    
+}
+.textbg{
+    padding: 15px 15px;
+    background-color: rgb(235, 217, 217);
+}
+.section{
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.section-light{
+    background-color: darkgray;
+    color: rgb(18, 22, 22);
+}
+.section-dark{
+    background-color: rgb(41, 30, 30);
+    color: rgb(203, 221, 221);
+}
+.section-Mix{
+    background-color: rgb(78, 37, 37);
+    color: rgb(193, 218, 218);
+}

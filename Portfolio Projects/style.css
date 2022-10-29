@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: darkgray;
+
+    /* align-items: center; */
+}
+
+.sec1 {
+
+    background-image: url('background.jpg');
+    min-height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    padding: 20px 20px;
+    font-size: 30px;
+    font-weight: 45px;
+}
+.logo b{
+    color: #f9004d;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 5px 55px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.text{
+    color: rgb(179, 183, 185);
+    position: absolute;
+    top: 55%;
+    left: 17%;
+    transform: translateY(-50%);
+    letter-spacing: 0.1em;
+}
+
+.text h4{
+    font-size: 20px;
+}
+
+.Name span {
+    font-size: 45px;
+    color: #f9004d;
+}
+
+body span{
+    color: #f9004d;
+
+}
+
+
+.navbar li:hover {
+    color: rgb(221, 155, 92);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+
+.newlatter form{
+    min-width: 380px;
+    
+    /* background-color: aqua; */
+    position:relative
+    ;
+}
+.newlatter form input:first-child{
+    display: inline-block;
+    padding: 12px 130px 13px 15px;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 25px;
+    border: none;
+}
+.newlatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 25px;
+    background-color: #f9004d;
+    border: none;
+    top: 30px;
+    right: 6px;
+
+    
+   
+    box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
+}
+
+.butt button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    transition: transform 0.4s;
+
+}
+.butt button:hover{
+    cursor: pointer;
+    background-color: darkkhaki;
+    color: black;
+    transform: scale(1.2);
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+
+}
+ 
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 27px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+}
+.about-text p {
+    color: white;
+    letter-spacing: 0.1em;
+    line-height: 25px;
+    font-size: 17px;
+}
+.about button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    transition: transform 0.4s;
+    margin-top: 20px;
+
+}
+.about button:hover{
+    cursor: pointer;
+    background-color: darkkhaki;
+    color: black;
+    transform: scale(1.2);
+
+}
+.sec3{
+    background-color:#000;
+}
+.container1 i{
+    color: #f9004d;
+    font-size: 30px;
+}
+
+
+
+.head {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 35px;
+    color: antiquewhite;
+    letter-spacing: 0.09em;
+}
+
+.container1 {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.card1 {
+
+    width: 300px;
+    background-color: rgb(49, 42, 42);
+    padding: 15px 25px;
+    border-radius: 10px;
+    
+    text-align:center;
+    margin-bottom: 25px;
+    font-size: 15px;
+    
+
+}
+
+
+.card2 {
+
+    width: 300px;
+    background-color: rgb(49, 42, 42);
+    padding: 15px 25px;
+    border-radius: 10px;
+    
+    text-align:center;
+    margin-bottom: 25px;
+    font-size: 15px;
+    
+
+}
+.card3 {
+
+    width: 300px;
+    background-color: rgb(49, 42, 42);
+    padding: 15px 25px;
+    border-radius: 10px;
+   
+    text-align:center;
+    margin-bottom: 25px;
+    font-size: 15px;
+    
+
+}
+
+.header3 {
+    font-size: 20px;
+    color: rgb(236, 226, 214);
+
+}
+
+.header2 {
+    font-size: 20px;
+    color: rgb(236, 226, 214);
+}
+
+.header1 {
+    font-size: 20px;
+    color: rgb(236, 226, 214)
+
+}
+.pra p{
+    color: white;
+}
+.button{
+    text-align: center;
+    background-color: #f9004d;
+    padding: 10px 20px  ;
+    border-radius:20px;
+    color: rgb(230, 214, 214);
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid transparent
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(10, 17, 17);
+    transition: 0.3s ease-in-out;
+}
+.card1 p{
+    color: rgb(121, 141, 141);
+}
+.card2 p{
+    color: rgb(126, 146, 146);
+}
+.card3 p{
+    color: rgb(126, 148, 148);
+}
+.sec4{
+    height: 45%;
+    text-align: center;
+    background-color: rgb(43, 38, 38);
+    padding-top: 120px;
+}
+.class2head{
+    font-weight: 100px;
+    color: rgb(224, 222, 218);
+    letter-spacing: 0.1em;
+}
+.sec4 button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px ;
+    border-radius: 30px;
+    transition: transform 0.4s;
+    margin-top: 20px;
+    
+}
+.sec4 button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: darkkhaki;
+    color: black;
+}
